@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PExplorer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PExplorer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\CR14\CR14_3\PE\Student\CR14_2013.06.25_OptionalHEADER\PExplorer\AddSectionDlg.cpp"
+"D:\CR14\CR14_3\PE\Student\CR14_2013.06.25_OptionalHEADER\PExplorer\ConvertDlg.cpp"
+"D:\CR14\CR14_3\PE\Student\CR14_2013.06.25_OptionalHEADER\PExplorer\MyPEFile.cpp"
+"D:\CR14\CR14_3\PE\Student\CR14_2013.06.25_OptionalHEADER\PExplorer\PExplorer.cpp"
+"D:\CR14\CR14_3\PE\Student\CR14_2013.06.25_OptionalHEADER\PExplorer\PExplorerDlg.cpp"
+"D:\CR14\CR14_3\PE\Student\CR14_2013.06.25_OptionalHEADER\PExplorer\ShowIATDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/PExplorer.pdb" /machine:I386 /out:"Release/PExplorer.exe" 
+.\Release\AddSectionDlg.obj
+.\Release\ConvertDlg.obj
+.\Release\MyListCtrl.obj
+.\Release\MyPEFile.obj
+.\Release\MyTreeCtrl.obj
+.\Release\PExplorer.obj
+.\Release\PExplorerDlg.obj
+.\Release\ShowIATDlg.obj
+.\Release\StdAfx.obj
+.\Release\PExplorer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA1.tmp"
+<h3>Output Window</h3>
+Compiling...
+AddSectionDlg.cpp
+ConvertDlg.cpp
+MyPEFile.cpp
+PExplorer.cpp
+PExplorerDlg.cpp
+ShowIATDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PExplorer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
